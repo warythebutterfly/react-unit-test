@@ -1,0 +1,250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should render and match the snapshot 1`] = `
+<div
+  data-testid="sign-up-form"
+>
+  <Formik
+    initialValues={
+      Object {
+        "confirmPassword": "",
+        "email": "",
+        "firstName": "",
+        "lastName": "",
+        "password": "",
+      }
+    }
+    onSubmit={[Function]}
+    validationSchema={
+      ObjectSchema {
+        "_blacklist": Set {},
+        "_excludedEdges": Array [],
+        "_mutate": undefined,
+        "_nodes": Array [
+          "confirmPassword",
+          "password",
+          "email",
+          "lastName",
+          "firstName",
+        ],
+        "_sortErrors": [Function],
+        "_typeCheck": [Function],
+        "_whitelist": Set {},
+        "conditions": Array [],
+        "deps": Array [],
+        "exclusiveTests": Object {},
+        "fields": Object {
+          "confirmPassword": StringSchema {
+            "_blacklist": Set {},
+            "_typeCheck": [Function],
+            "_whitelist": Set {
+              Reference {
+                "getter": [Function],
+                "isContext": false,
+                "isSibling": true,
+                "isValue": false,
+                "key": "password",
+                "map": undefined,
+                "path": "password",
+              },
+              "",
+            },
+            "conditions": Array [],
+            "deps": Array [],
+            "exclusiveTests": Object {
+              "required": false,
+            },
+            "internalTests": Object {
+              "nullable": [Function],
+              "optionality": [Function],
+              "typeError": [Function],
+              "whiteList": [Function],
+            },
+            "spec": Object {
+              "abortEarly": true,
+              "coerce": true,
+              "disableStackTrace": false,
+              "nullable": false,
+              "optional": false,
+              "recursive": true,
+              "strict": false,
+              "strip": false,
+            },
+            "tests": Array [
+              [Function],
+            ],
+            "transforms": Array [
+              [Function],
+            ],
+            "type": "string",
+          },
+          "email": StringSchema {
+            "_blacklist": Set {},
+            "_mutate": undefined,
+            "_typeCheck": [Function],
+            "_whitelist": Set {},
+            "conditions": Array [],
+            "deps": Array [],
+            "exclusiveTests": Object {
+              "email": false,
+              "required": false,
+            },
+            "internalTests": Object {
+              "nullable": [Function],
+              "optionality": [Function],
+              "typeError": [Function],
+            },
+            "spec": Object {
+              "abortEarly": true,
+              "coerce": true,
+              "disableStackTrace": false,
+              "nullable": false,
+              "optional": false,
+              "recursive": true,
+              "strict": false,
+              "strip": false,
+            },
+            "tests": Array [
+              [Function],
+              [Function],
+            ],
+            "transforms": Array [
+              [Function],
+            ],
+            "type": "string",
+          },
+          "firstName": StringSchema {
+            "_blacklist": Set {},
+            "_mutate": undefined,
+            "_typeCheck": [Function],
+            "_whitelist": Set {},
+            "conditions": Array [],
+            "deps": Array [],
+            "exclusiveTests": Object {
+              "max": true,
+              "min": true,
+              "required": false,
+            },
+            "internalTests": Object {
+              "nullable": [Function],
+              "optionality": [Function],
+              "typeError": [Function],
+            },
+            "spec": Object {
+              "abortEarly": true,
+              "coerce": true,
+              "disableStackTrace": false,
+              "nullable": false,
+              "optional": false,
+              "recursive": true,
+              "strict": false,
+              "strip": false,
+            },
+            "tests": Array [
+              [Function],
+              [Function],
+              [Function],
+            ],
+            "transforms": Array [
+              [Function],
+            ],
+            "type": "string",
+          },
+          "lastName": StringSchema {
+            "_blacklist": Set {},
+            "_mutate": undefined,
+            "_typeCheck": [Function],
+            "_whitelist": Set {},
+            "conditions": Array [],
+            "deps": Array [],
+            "exclusiveTests": Object {
+              "max": true,
+              "min": true,
+              "required": false,
+            },
+            "internalTests": Object {
+              "nullable": [Function],
+              "optionality": [Function],
+              "typeError": [Function],
+            },
+            "spec": Object {
+              "abortEarly": true,
+              "coerce": true,
+              "disableStackTrace": false,
+              "nullable": false,
+              "optional": false,
+              "recursive": true,
+              "strict": false,
+              "strip": false,
+            },
+            "tests": Array [
+              [Function],
+              [Function],
+              [Function],
+            ],
+            "transforms": Array [
+              [Function],
+            ],
+            "type": "string",
+          },
+          "password": StringSchema {
+            "_blacklist": Set {},
+            "_typeCheck": [Function],
+            "_whitelist": Set {},
+            "conditions": Array [],
+            "deps": Array [],
+            "exclusiveTests": Object {
+              "max": true,
+              "min": true,
+              "required": false,
+            },
+            "internalTests": Object {
+              "nullable": [Function],
+              "optionality": [Function],
+              "typeError": [Function],
+            },
+            "spec": Object {
+              "abortEarly": true,
+              "coerce": true,
+              "disableStackTrace": false,
+              "nullable": false,
+              "optional": false,
+              "recursive": true,
+              "strict": false,
+              "strip": false,
+            },
+            "tests": Array [
+              [Function],
+              [Function],
+              [Function],
+            ],
+            "transforms": Array [
+              [Function],
+            ],
+            "type": "string",
+          },
+        },
+        "internalTests": Object {
+          "nullable": [Function],
+          "typeError": [Function],
+        },
+        "spec": Object {
+          "abortEarly": true,
+          "coerce": true,
+          "disableStackTrace": false,
+          "nullable": false,
+          "optional": true,
+          "recursive": true,
+          "strict": false,
+          "strip": false,
+        },
+        "tests": Array [],
+        "transforms": Array [],
+        "type": "object",
+      }
+    }
+  >
+    [Function]
+  </Formik>
+</div>
+`;
