@@ -1,35 +1,36 @@
-# Getting Started with Create React App
+# Unit Testing in React
+This project was created with react create app with typescript.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
+# Available Scripts
 In the project directory, you can run:
 
-### `yarn start`
+### `yarn install` OR ### `npm install`
+Installing all the dependencies of project
 
+### `yarn start` OR ### `npm start`
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
-
+### `yarn run test: all` OR ### `npm run test: all`
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+### `yarn run test: all --coverage`
+Lunches the test runner in interactive watch mode and also check the coverage of the app
 
+### `yarn run build` OR ### `npm run build`
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
+The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### `yarn eject` OR ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
